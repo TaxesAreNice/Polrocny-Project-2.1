@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Card</title>
+  <link rel="stylesheet" href="TopBar.css">
+  <link rel="stylesheet" href="Card.css">
+</head>
+<body>
+
+  <div class="top-bar">
+
+    <a href="index.html" class="top-bar_logo">
+      <img src="Img/Company_Logo.png" alt="Company logo">
+    </a>
+
+    <a href="Card.html" class="top-bar_cart">
+      <img src="Img/shopping_card.webp" alt="Shopping cart">
+    </a>
+
+    <div class="top-bar_search">
+      <input type="text" placeholder="Search">
+      <button type="button" class="top-bar_search-btn">
+        <img src="Img/search-icon.png" alt="Search">
+      </button>
+    </div>
+
+    <div class="top-bar_user">
+      <span class="top-bar_name">Name</span>
+      <img class="top-bar_avatar" src="Img/Capybara.jpg" alt="Profile picture">
+    </div>
+
+  </div>
+
+  <main class="card">
+
+    <div class="steps">
+      <div class="steps_list">
+        <div class="steps_item">
+          <span class="steps_num steps_num-active">1</span>
+          <span class="steps_label">Card</span>
+        </div>
+        <div class="steps_item">
+          <span class="steps_num">2</span>
+          <span class="steps_label">Delivery</span>
+        </div>
+        <div class="steps_item">
+          <span class="steps_num">3</span>
+          <span class="steps_label">Payment</span>
+        </div>
+      </div>
+      <button type="button" class="clear-btn">Clear Card</button>
+    </div>
+
+    <div class="items">
+        <div class="item">
+          <img class="item_img" src="Img/Capybara.jpg" alt="">
+          <span class="item_name">Product Name</span>
+          <div class="item_qty">
+            <button type="button" class="qty_btn">-</button>
+            <span class="qty_box">1</span>
+            <button type="button" class="qty_btn">+</button>
+          </div>
+          <span class="item_price">
+            <span class="price_now">6.27€</span>
+          </span>
+          <button type="button" class="item_remove">X</button>
+        </div>
+        <div class="item">
+          <img class="item_img" src="Img/Capybara.jpg" alt="">
+          <span class="item_name">Product Name</span>
+          <div class="item_qty">
+            <button type="button" class="qty_btn">-</button>
+            <span class="qty_box">1</span>
+            <button type="button" class="qty_btn">+</button>
+          </div>
+          <span class="item_price">
+            <span class="price_old">7.26€</span>
+            <span class="price_now price_now-sale">4.27€</span>
+          </span>
+          <button type="button" class="item_remove">X</button>
+        </div>
+        <div class="item">
+          <img class="item_img" src="Img/Capybara.jpg" alt="">
+          <span class="item_name">Product Name</span>
+          <div class="item_qty">
+            <button type="button" class="qty_btn">-</button>
+            <span class="qty_box">1</span>
+            <button type="button" class="qty_btn">+</button>
+          </div>
+          <span class="item_price">
+            <span class="price_now">12.99€</span>
+          </span>
+          <button type="button" class="item_remove">X</button>
+        </div>
+        <div class="item">
+          <img class="item_img" src="Img/Capybara.jpg" alt="">
+          <span class="item_name">Product Name</span>
+          <div class="item_qty">
+            <button type="button" class="qty_btn">-</button>
+            <span class="qty_box">1</span>
+            <button type="button" class="qty_btn">+</button>
+          </div>
+          <span class="item_price">
+            <span class="price_old">9.90€</span>
+            <span class="price_now price_now-sale">8.50€</span>
+          </span>
+          <button type="button" class="item_remove">X</button>
+        </div>
+    </div>
+
+    <div class="bottom">
+
+      <div class="totals">
+        <div class="totals_row">
+          <span class="totals_label">total price:</span>
+          <span class="totals_value">32.03€</span>
+        </div>
+        <div class="totals_row">
+          <span class="totals_label">with taxes:</span>
+          <span class="totals_value totals_value-tax">38.44€</span>
+        </div>
+      </div>
+
+      <div class="nav">
+        <button type="button" class="nav_btn nav_btn-back">Back</button>
+        <button type="button" class="nav_btn">Continue</button>
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+</html>
